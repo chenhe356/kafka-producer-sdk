@@ -1,4 +1,4 @@
-package org.emsg.kafka_sdk.encoder;
+package com.dycd.kafka_sdk.encoder;
 
 import org.apache.kafka.common.serialization.Deserializer;
 

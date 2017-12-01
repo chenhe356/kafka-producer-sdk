@@ -1,17 +1,17 @@
-package org.emsg.kafka_sdk.core;
+package com.dycd.kafka_sdk.core;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
+import com.dycd.kafka_sdk.handler.MessageCallBackHandler;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
-import org.emsg.kafka_sdk.handler.MessageCallBackHandler;;
+;
 
 /**
  * use this class to send message to broker
- * 
- * @author shuttle
+ * @author he.chen
  *
  * @param <K>
  *            key type

@@ -1,9 +1,8 @@
-package org.emsg.kafka_sdk.consts;
+package com.dycd.kafka_sdk.consts;
 
 /**
  * kafka config settings.
  * 
- * @author Ning
  *
  */
 public class ProducerConsts {
