@@ -14,7 +14,6 @@ public class ShowMessageCallBackHandler implements MessageCallBackHandler {
 	public void callBack(Object o) {
 		// TODO Auto-generated method stub
 		RecordMetadata meta = (RecordMetadata)o;
-//		System.out.println(meta.offset() + " " + meta.partition() + " " + meta.topic());
 		Map<String,Object> params = new HashMap<>(16);
 		params.put("offset",meta.offset());
 		params.put("partition",meta.partition());

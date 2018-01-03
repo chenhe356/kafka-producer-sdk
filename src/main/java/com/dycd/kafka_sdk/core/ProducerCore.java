@@ -46,7 +46,7 @@ public class ProducerCore<K, V> {
 	 * 
 	 * @param topic
 	 *            topic name
-	 * @param a
+	 * @param key
 	 *            key to generate which partition will be send to.
 	 * @param value
 	 *            the message you want to send
